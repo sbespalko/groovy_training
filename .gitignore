@@ -1,0 +1,7 @@
+*.
+.*
+*.jar
+*.iml
+*.class
+!.gitignore
+!gradle-wrapper.jar

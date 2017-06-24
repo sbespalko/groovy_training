@@ -1,0 +1,15 @@
+
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+mainClassName = 'LittleTesting'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.24'
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    testCompile 'junit:junit:4.12'
+}
